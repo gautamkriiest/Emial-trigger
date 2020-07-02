@@ -9,8 +9,8 @@ export class MailerService {
       host: 'smtp.gmail.com',
       port: 587,
       auth: {
-        user: 'g4gkgs@gmail.com',
-        pass: ''
+        user: 'YourGmailId',
+        pass: 'yourGmailPass'
       }
     });
     return await transporter.sendMail(mailOptions);
